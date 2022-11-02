@@ -1,0 +1,43 @@
+body{
+    font-family: 'Prompt', sans-serif;
+}
+.head>h1 {
+    display: inline-block;
+}
+.h_option_list {
+    list-style-type: none;
+    padding: 0;
+}
+ul.h_option_list li {
+    display:inline;
+  }
+
+  .hilight ul {
+    list-style-type: none;
+  }
+  .hilight li:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+  }
+
+
+._wifi {
+    color: green;
+}
+._stamp {
+    color: purple;
+}
+._waruntee {
+    color: indigo;
+}
+._hwarning {
+    background-color: lemonchiffon;
+
+}
+
+.content {
+    column-count: 3;
+}
